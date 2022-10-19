@@ -1,0 +1,449 @@
+.Middle-section{
+    display: grid; /* "Grid" för då kan man lägga boxarna i "rows" och "column".*/
+    grid-template-rows: 100px 10px 100px;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+}
+
+.shopbytext, .newarrivaltext{
+    position: relative;
+    left: 62px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.categorytext, .arrivaltext{
+    color: #0fc2b0;
+}
+
+.curlyline{
+    position: relative;
+    right: 10px;
+    bottom: 20px;
+    border-top: 3px double #8c8b8b;
+}
+
+.Middle-section-categories{
+    display: grid;
+    grid-template-columns: 150px 350px 350px
+    350px 145px 350px 145px;
+    grid-auto-rows: 100px;
+    gap: 7px;
+    justify-content: center;
+    position: relative;
+    top: 200px;
+    
+}
+
+.mencategory{
+    display: grid;
+    position: relative;
+    left: 530px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: #CCCCCC;
+}
+
+.mentext{
+    position: relative;
+    top: 88px;
+    color: #0fc2b0;
+    background-color: rgb(3, 3, 82);
+    height: 45px;
+    width: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.mencoat{
+    position: relative;
+    bottom: 20px;
+    height: 370px;
+    
+
+}
+
+.womencategory{
+    display: grid;
+    position: relative;
+    left: 535px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: #CCCCCC;
+}
+
+.womentext{
+    position: relative;
+    top: 88px;
+    color: #0fc2b0;
+    background-color: rgb(3, 3, 82);
+    height: 45px;
+    width: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.kidscategory{
+    display: grid;
+    position: relative;
+    left: 540px;
+    height: 350px;
+    border-radius: 7px;
+    background-color: #CCCCCC;
+}
+
+.kidstext{
+    position: relative;
+    top: 289px;
+    color: #0fc2b0;
+    background-color: rgb(3, 3, 82);
+    height: 45px;
+    width: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.shoescategory{
+    display: grid;
+    position: relative;
+    top: 160px;
+    right: 340px;
+    height: 350px;
+    border-radius: 7px;
+    background-color: #CCCCCC;
+}
+
+.shoestext{
+    position: relative;
+    top: 290px;
+    color: #0fc2b0;
+    background-color: rgb(3, 3, 82);
+    height: 45px;
+    width: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.hatscategory{
+    display: grid;
+    position: relative;
+    top: 162px;
+    height: 185px;
+    right: 335px;
+    border-radius: 7px;
+    background-color: #CCCCCC;
+}
+
+.hatstext{
+    position: relative;
+    top: 123px;
+    color: #0fc2b0;
+    background-color: rgb(3, 3, 82);
+    height: 45px;
+    width: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.sunglassescategory{
+    display: grid;
+    position: relative;
+    right: 485px;
+    top: 360px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: #CCCCCC;
+}
+
+.sunglasstext{
+    position: relative;
+    top: 90px;
+    color: #0fc2b0;
+    background-color: rgb(3, 3, 82);
+    height: 45px;
+    width: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+
+.watchescategory{
+    display: grid;
+    position: relative;
+    top: 360px;
+    right: 480px;
+    height: 150px;
+    border-radius: 7px;
+    background-color: #CCCCCC;
+}
+
+.watchtext{
+    position: relative;
+    top: 90px;
+    color: #0fc2b0;
+    background-color: rgb(3, 3, 82);
+    height: 45px;
+    width: 110px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.prod23, .prod17, .prod31, .prod43, .prod89, .prod127,
+ .prod73{
+    position: relative;
+    top: 5px;
+    left:10px;
+    color: rgb(3, 3, 82);
+    transition: 1s ease-out;
+}
+
+.prod23:hover, .prod17:hover, .prod31:hover, .prod43:hover,
+.prod89:hover, .prod127:hover, .prod73:hover{
+    color: #0fc2b0;
+}
+
+
+
+.Middle-section-newarrivals{
+    display: grid;
+    position: relative;
+    top:700px;
+    justify-content: center;
+}
+
+.Midlower-newarrivals{
+    display: flex;
+    position: relative;
+    top: 750px;
+    justify-content: center;
+    height: 350px;
+    
+}
+
+.boys-top{
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    right: 25px;
+    width: 350px;
+}
+
+
+.sleeved-top, .girls-shirt{
+    background-color: rgb(3, 3, 68);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 19px;
+}
+
+.new-look-coat{
+    display: flex;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: rgb(240, 240, 240);
+}
+
+.new-look-coat:hover .icon-bar{
+    opacity: 1;
+}
+
+.girls-top{
+    background-color: rgb(240, 240, 240);
+    position: relative;
+    left: 35px;
+    width: 350px;
+}
+
+.icon-bar{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    right: 15px;
+    top: 20px;
+    height: 220px;
+    width: 45px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+
+.reddoticon{
+    position: relative;
+    width: 25px;
+    background-color:white;
+    border: none;
+    top: 15px;
+    left: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.reddoticon:hover{
+    background-color: green;
+}
+
+.reddot{
+    position: relative;
+    right: 3px;
+    top: 1px;
+    cursor: pointer;
+}
+
+.heart-icon{
+    position: relative;
+    top: 28px;
+    left: 6px;
+    height: 35px;
+    width: 33px;
+    border-radius: 18px;
+    border: none;
+    background-color:white;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+.heart-icon:hover{
+    background-color: lightpink;
+
+}
+
+
+.compa-icon{
+    position: relative;
+    top: 40px;
+    background-color: white;
+    border: none;
+    width: 30p;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.compa-icon:hover{
+    background-color: #0fc2b0;
+}
+
+
+.magglass-icon{
+    position: relative;
+    top: 50px;
+    width: 27;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.magglass-icon:hover{
+    background-color: yellow;
+}
+
+.cart-icon{
+    position: relative;
+    top: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.cart-icon:hover{
+    background-color: rgb(0, 0, 78);
+}
+
+.firstsale-section{
+    display: flex;
+    position: relative;
+    top: 900px;
+    height: auto;
+    background-color: lightgray;
+}
+
+.thirtyoff{
+    background-color: #14dfca;
+    position: relative;
+    left: 275px;
+    width: 250px;
+    height: 350px;
+}
+
+.thirtyofftext{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.OFFtext{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    font-size: 30px;
+}
+
+.newcustomer{
+    position: relative;
+    left: 70px;
+    top: 70px;
+    color: white;
+}
+
+.button-shopnow{
+    position: relative;
+    left: 70px;
+    top: 70px;
+    font-weight: bold;
+    background-color:rgb(2, 2, 75);
+    border-color: rgb(2, 2, 75);
+    border-radius: 10px;
+    height: 35px;
+    width: 125px;
+    color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.button-shopnow:hover{
+    background-color: white;
+    color: rgb(2, 2, 75);
+}
+
+.thirtyoffinfotext{
+    position: relative;
+    bottom: 80px;
+    left: 750px;
+    width: 450px;
+}
+
+.learnmorebutton{
+    position: relative;
+    bottom: 55px;
+    left: 800px;
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    background-color:white;
+    border-color: white;
+    color: #14dfca;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.learnmorebutton:hover{
+    background-color: #14dfca;
+    color: white;
+}

@@ -1,0 +1,377 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-section{
+    display: flex;
+    padding: 5px; /* samma som "margin" fast innanför.*/
+    background-color: #20d3c2;
+    align-items: center;
+    justify-content: space-between;  /*Används när man vill fördela innehållet */    
+}
+
+.top-left{
+    display: flex; 
+    margin-left: 300px;  /* skapa utrymme runt bilderna utanför alla definerade gränser.*/
+    
+}
+
+.top-right{
+    display: flex;
+    margin-right: 200px;
+}
+
+.Newsletter, .Contactus, .FAQs, .FB, .Twitter, .Instagram,
+ .Pinterest, .Youtube{
+    display: flex; /* För att skapa en flexbox*/
+    border: none;
+    background-color: #20d3c2;
+    color: white;
+    margin-right: 10px;
+    transition: 1s ease-in;
+    cursor: pointer;   /* När man svävar över ikonerna så blir pilen en han med pekfinger utåt*/  
+}
+
+.Newsletter:hover, .Contactus:hover, .FAQs:hover, .Button-ENG:hover,
+.Button-EUR:hover{
+    color: blue;
+    display: inline-block;
+    position: relative;
+}
+
+.Newsletter::before, .Contactus::before, .FAQs::before, 
+.Button-ENG::before, .Button-EUR::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color:blue;
+}
+    
+.FB:hover{
+    background-color: rgb(57, 100, 218);
+    border-radius: 10px;
+}
+ 
+.Twitter:hover{
+    color: rgb(93, 193, 196);
+}
+
+.Instagram:hover{
+    border-radius: 5px;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+}
+
+.Pinterest:hover{
+    color: rgb(185, 3, 3);
+}
+
+.Youtube:hover{
+    color: rgb(255, 60, 60);
+}
+
+.Button-ENG, .Button-EUR{
+    display: flex;
+    border: none;
+    background-color: #20d3c2;
+    color: white;
+    margin-right: 15px;
+    cursor: pointer;   
+    transition: 1s ease-in; 
+}
+
+.Button-ENG:hover, .Button-EUR:hover{
+   color: blue; 
+   opacity: 0.9;
+}
+
+
+.middle-top-section{
+    display: flex;  
+    align-items: center;
+    padding: 40px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;  
+    border-bottom-color: rgb(190, 190, 190);    
+}
+
+.search-bar{   
+    flex: 1;
+    height: 35px;
+    width: 60;
+    margin-left: 80px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(rgb192, 192, 192);
+    border-radius: 19px;
+ }
+
+.Logok{
+    margin-left: 285px;
+}
+
+.search-icon{
+    position: relative;
+    right: 35px;
+    border: none;
+    background-color:#20d3c2;
+    height: 30px;
+    width: 30px;
+    cursor: pointer; 
+    border-radius: 10px;
+    transition: 2s ease-out;
+    
+}
+
+.search-icon:hover{
+    color: white;
+}
+
+.User-icon{
+    border: none;
+    background-color: white;
+    margin-left: 40px;
+    margin-right: 300px;
+    cursor: pointer;
+    transition: 1s ease-in;
+}
+
+.myacc{
+    margin-left:-300px;
+    margin-right: 200px;
+}
+
+.User-icon:hover{
+    background-color: #20d3c2;
+    border-radius: 10px;
+}
+
+.Liked-icon{
+    border: none;
+    background-color: white;
+    margin-left: -170px;
+    margin-right: 200px;  
+    cursor: pointer;
+    transition: 1s ease-out; 
+}
+
+.Liked-icon:hover{
+    border-radius: 12px;
+    background-color: pink;
+
+}
+
+.Compare-icon, .Bag-icon{
+    border: none;
+    background-color: white;
+    margin-left: -195px;
+    margin-right: 200px; 
+    cursor: pointer;  
+    transition: 1s ease-in-out;
+}
+
+.Compare-icon:hover{
+    color: blue;
+    display: inline-block;
+    position: relative;
+}
+
+.Compare-icon::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color:#20d3c2;
+}
+
+.Bag-icon:hover{
+    background-color: rgb(233, 155, 120);
+    border-radius: 10px;
+}
+
+.Euros{
+    margin-left: -195px;
+    margin-right: 200px; 
+}
+
+.top-middle-lower-section{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.Browse-cate{
+    border: none;
+    cursor: pointer;
+    margin-left: 250px;
+    background-color: white;
+    transition: 1s ease-in;
+}
+
+.Browse-cate:hover{
+    background-color: rgb(233, 231, 231);
+    border-radius: 5px;
+}
+
+.Offers{
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 300px;
+    transition: 1s ease-in;
+}
+
+.Offers:hover{
+    background-color: rgb(233, 231, 231);
+    border-radius: 30px;
+    
+}
+
+.top-bottom-section{
+    display: grid;
+    position: relative;
+    bottom: 4px;
+    grid-template-columns: 1fr 1fr;
+    background-color: rgb(165, 164, 164);
+    justify-content: center;
+}
+
+.twogirls{
+    position: relative;
+    top: 20px;
+    margin-right: 250px;
+    
+}
+
+.Shoppingmf{
+    position: relative;
+    top: 90px;
+    left: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.firstshop-text{
+    font-size: 50px;  
+}
+
+.morefunn{
+    color: #20d3c2;
+    font-weight: bold;
+    font-size: 55px;
+}
+
+.shopnow-button{
+    
+    position: relative;
+    background-color: rgb(165, 164, 164);
+    border: none;
+    bottom: 200px;
+    right: 215px;
+    cursor: pointer;
+    transition: transform 1s;
+}
+
+.shopnow-button:hover{
+    background-color: gray;
+    border-radius: 30px;
+    transform: translate(5%)
+    
+}
+
+.top-section-infos{
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: space-between;
+    align-items: center;
+    
+    position: relative;
+    top: 50px;
+}
+
+.shippmentinfo{
+    background-color: #bdfdf8;
+    position: relative;
+    left: 70px;
+    border-radius: 10px;
+}
+
+.freeshipp{
+    position: relative;
+    left: 30px;
+}
+
+.freeshipping{
+    color: #0fc2b0;
+    position: relative;
+    bottom: 7px;
+    
+}
+
+.shipbox, .clockicon, .payicon, .clockboxicon{
+    position: relative;
+    left: 125px;
+    bottom: 10px;
+    height: 35px;
+}
+
+.supportinfo{
+    background-color: #0fc2b0;  
+    position: relative;
+    left: 1px;
+    border-radius: 10px;
+}
+
+.support{
+    color: white;
+    position: relative;
+    bottom: 7px;
+    left: 30px;   
+}
+
+.supportsec{
+    position: relative;
+    top: 5px;
+}
+
+.paymentinfo{
+    background-color: #bdfdf8;
+    position: relative;
+    right: 50px;
+    border-radius: 10px;
+}
+
+.onpay{
+    position: relative;
+    left: 20px;
+}
+
+.onpayfirst{
+    position: relative;
+    bottom: 7px;
+    color: #0fc2b0;
+}
+
+.fastdeli{
+    position: relative;
+    left: 25px;
+}
+
+.deliveryinfo{
+    background-color: #bdfdf8;
+    position: relative;
+    right: 80px;
+    border-radius: 10px;
+}
+
+.fastdelifirst{
+    position: relative;
+    bottom: 7px;
+    color: #0fc2b0;
+}

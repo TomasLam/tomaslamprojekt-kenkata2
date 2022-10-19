@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <header>
+        <title>KENKATA login</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="CSSfiles/Top-section.css"> <!--För att kunna använda extern css filen-->
+        <link rel="stylesheet" href="CSSfiles/Middle-section.css">
+        <link rel="stylesheet" href="CSSfiles/Bottom-section.css">
+        <link rel="stylesheet" href="CSSfiles/Last-section.css">
+        <link rel="stylesheet" href="CSSfiles/secsite.css">
+        <script src="https://kit.fontawesome.com/495348bb2a.js" crossorigin="anonymous"></script>
+    </header>
+    <body>
+        <div class="top-section">  <!--"div" används för att dela innehållet i sectioner, "class" attributen gör så man kan styla dem för sig i CSS.--> <!--Detta är sektionen längst uppe-->
+            <div class="top-left">         
+            <button type="button" class="Button-ENG">
+                 ENG
+                 <img src="icons/Path 9.png">
+            </button>                      
+            <button type="button" class="Button-EUR">
+                 EUR
+                 <img src="icons/Path 9.png">
+            </button>
+            </div>
+            <div class="top-right">
+            <button type="button" class="Newsletter">
+                Newsletter
+            </button>
+            <button type="button" class="Contactus">
+                Contact us
+            </button>
+            <button type="button" class="FAQs">
+                FAQs
+            </button>                
+            <button type="button" class="FB">
+                <i class="fa-brands fa-facebook-f"></i>
+            </button>
+            <button type="button" class="Twitter">
+                <i class="fa-brands fa-twitter"></i>
+            </button>  
+            <button type="button" class="Instagram">
+                <i class="fa-brands fa-instagram"></i>
+            </button> 
+            <button type="button" class="Pinterest">
+                <i class="fa-brands fa-pinterest-p"></i>
+            </button>
+            <button type="button" class="Youtube">
+                <i class="fa-brands fa-youtube"></i>
+            </button> 
+        </div>     
+        </div>
+
+        <div class="middle-top-section"> <!--Sektionen där search baren m.m ligger-->
+          <img class="Logok" src="bilder-top/Logo.png" alt="kenkata"> <!--"alt" krävs, ifall inte bilden kan visas så agerar den som ett alternativt text som t.ex beskriver bilden-->              
+            <input class="search-bar" type="text" placeholder="search products..." size="40">
+            <button type="button" class="search-icon">
+                <i class="fa-solid fa-magnifying-glass"></i>                    
+            </button>                      
+            <button type="button" class="User-icon">
+                <img src="icons/User icon.svg">  
+                <a href="index.html">My account</a>                        
+            </button>
+                       
+            <button type="button" class="Liked-icon">
+                <img src="icons/Heart icon.svg">
+            </button>   
+            <button type="button" class="Compare-icon">
+                <img src="icons/Compare icon.svg">
+            </button>   
+            <button type="button" class="Bag-icon">
+                <img src="icons/Bag icon.svg">
+            </button>                                       
+                <img class="Euros" src="icons/€0.00.svg" alt="Euros">                     
+        </div>
+
+          <div class="top-middle-lower-section">
+              <button type="button" class="Browse-cate">
+                  <img src="icons/Browse categories.svg">
+              </button> 
+              <button type="button" class="Offers">
+                  <img src="icons/Special offer.svg">
+              </button>             
+          </div>
+
+        <div class="secsite-myacc">
+            <p class="myacctext">My account</p>
+            <button class="homebutton" type="button"> <a href="index.html"><span class="Home-button">Home</span></a></button>
+            <button class="myaccbutton" type="button">My account</button>
+            <p class="slashsymbol">/</p>
+        </div>
+
+        <form class="login-infos">
+            <div class="logn">
+                <p class="Logtext">LOGIN</p>
+            
+            <label class="emailtxt" for="Emailadress"> Email adress*</label>
+            <input class="emailinput" type="text" id="Emailadress" placeholder="Email" required>
+            
+
+            <br>
+
+            <div>
+            <label class="passtxt" for="password"> Password*</label>
+            <input class="passinput" type="password" id="password" placeholder="Pass" required>
+             </div>
+
+            <br>
+            <button class="loginbutton" type="submit">Login</button>
+            <br>
+
+            <div class="checkboxs">
+            <label for="Rememberme">Remember me:</label>
+            <input type="checkbox" id="Rememberme" name="Rememberme"></div>
+
+            <button class="Forgotpass" type="button">Lost your password?</button>
+
+            <BR>
+
+            <p class="orlog"><i>OR LOGIN WITH</i></p>
+                <hr> <br>
+
+            <img class="fblogin" src="icons/Facebook login.svg" alt="fblogin">
+            <img class="googlelogin" src="icons/Google login.svg" alt="googlelogin">
+
+             </div>   
+            </div>
+        </form>
+
+        <form class="reg-infos">
+            <div class="regn">
+            <p class="registertxt-top">REGISTER</p>
+            <p class="info-register">Registering for this site allows you to access your order status and history. <br> Just fill in the fields below,
+                and we’ll get a new account set up for you in no time.<br>
+                We will only ask you for information necessary to make the purchase process faster and easier.</p>
+
+            <div class="text-box">
+            <label class="fnametext" for="Firstname"> Firstname*</label>
+            <input class="fnameinput" type="text" id="Firstname" placeholder="Firstname" required>
+
+            <br>
+
+            <div>
+                <label class="lnametxt" for="lastname"> Lastname*</label>
+                <input class="lnameinput" type="password" id="lnametxt" placeholder="Lastname" required>
+            </div>
+          </div>
+
+          <br>
+
+          <label class="emailtxt-lower" for="Emailadress"> Email adress*</label>
+            <input class="emailinput-lower" type="text" id="Emailadress" placeholder="Email" required>
+            
+
+            <br>
+
+            <div>
+            <label class="passtxt-lower" for="password"> Password*</label>
+            <input class="passinput-lower" type="password" id="password" placeholder="Pass" required>
+             </div>
+
+            <br>
+
+            <p class="policytxt">Your personal data will be used to support your experience <br>
+                 throughout this website, to manage access to your account,<br>
+                  and for other purposes described in our</p>
+            
+            <button class="policybutton" type="button">privacy policy</button>
+
+            <br>
+                <button class="Registerbutton" type="submit">REGISTER</button>
+            
+        </div>
+
+        <div class="copyright-section-andra">
+                <p class="copyrighttext">@ Copyright 2022 Kenkata</p>
+            </div>
+
+        </form>
+    </body>
+</html>

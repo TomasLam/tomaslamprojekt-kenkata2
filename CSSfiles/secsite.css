@@ -1,0 +1,289 @@
+.secsite-myacc{
+    display: grid;
+    position: relative;
+    bottom: 4px;
+    height: 100px;
+    justify-content: center;
+    background-color: rgb(0, 0, 36);
+    color: #20d3c2;
+}
+
+.myacctext{
+    position: relative;
+    right: 520px;
+    top: 22px;
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.homebutton{
+    position: relative;
+    left: 520px;
+    bottom: 20px;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 36);
+    color: #20d3c2;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.homebutton:hover{
+    color: white;
+}
+
+.myaccbutton{
+    position: relative;
+    left: 600px;
+    bottom: 40px;
+    background-color: rgb(0, 0, 36);
+    color: white;
+    cursor: pointer;
+}
+
+.slashsymbol{
+    position: relative;
+    left: 600px;
+    bottom: 73px;
+}
+
+
+.login-infos{
+    position: relative;
+    right: 190px;
+    max-width: 300px;
+    margin: 2rem auto;
+    border: 2px solid #20d3c2;
+    padding: 2rem;
+    height: 400px;
+    background-color: rgb(240, 240, 240);
+}
+
+label{
+    display: block;
+}
+
+.logn{
+    position: relative;
+    top:30px;
+}
+
+.Logtext{
+    position: relative;
+    bottom: 30px;
+    font-weight: bold;
+}
+
+.emailtxt{
+    position: relative;
+    bottom: 30px;
+}
+.emailinput{
+    position: relative;
+    bottom: 25px;
+    border: none;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+}
+
+.passtxt{
+    position: relative;
+    bottom: 12px;
+}
+
+.passinput{
+    position: relative;
+    bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 270px;
+}
+
+.loginbutton{
+    position: relative;
+    left: 40px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #20d3c2;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.loginbutton:hover{
+    background-color: white;
+    color: #20d3c2;
+    border-color: #20d3c2;
+}
+
+.checkboxs{
+    position: relative;
+    top: 20px;
+    
+}
+
+.orlog{
+    position: relative;
+    left: 100px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.Forgotpass{
+    position: relative;
+    bottom: 17px;
+    left: 150px;
+    font-size: 15px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    color: #20d3c2;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: rgb(240, 240, 240);
+    transition: 1s ease-in-out; 
+}
+
+.Forgotpass:hover{
+    background-color: #20d3c2;
+    color: white;
+    
+}
+
+.fblogin{
+    width: 135px;
+    cursor: pointer;
+}
+
+.googlelogin{
+    width: 135px;
+    cursor: pointer;
+}
+
+.reg-infos{
+    position: relative;
+    bottom: 515px;
+    left: 200px;
+    max-width: 300px;
+    margin: 3rem auto;
+    border: 2px solid #20d3c2;
+    padding: 2rem;
+    height: 510px;
+    background-color: rgb(240, 240, 240);
+}
+
+.registertxt-top{
+    font-weight: bold;
+}
+
+.info-register{
+    font-size: 12px;
+    color: #777777;
+}
+
+.Registerbutton{
+    position: relative;
+    top: 8px;
+    left: 50px;
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #20d3c2;
+    color: white;
+    border-color: white;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.Registerbutton:hover{
+    background-color: white;
+    color: #20d3c2;
+    border-color: #20d3c2;
+}
+
+.text-box{
+    position: relative;
+    top: 10px;
+}
+
+.fnametext{
+    position: relative;
+    bottom: 10px;
+}
+
+.fnameinput{
+    position: relative;
+    bottom: 5px;
+    border: none;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+}
+
+.lnametxt{
+    position: relative;
+    top: 10px;
+}
+
+.lnameinput{
+    position: relative;
+    top: 15px;
+    border: none;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+}
+
+.emailtxt-lower{
+    position: relative;
+    top: 20px;
+}
+
+.emailinput-lower{
+    position: relative;
+    top: 27px;
+    border: none;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+}
+
+.passtxt-lower{
+    position: relative;
+    top: 35px;
+
+}
+
+.passinput-lower{
+    position: relative;
+    top: 40px;
+    border: none;
+    border-radius: 10px;
+    width: 270px;
+    height: 30px;
+}
+
+.policytxt{
+    position: relative;
+    top: 22px;
+    font-size: 12px;
+    color: #777777;
+}
+
+.policybutton{
+    position: relative;
+    left: 230px;
+    bottom: 8px;
+    font-size: 12px;
+    color: #20d3c2;
+    border: none;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.policybutton:hover{
+    background-color: #20d3c2;
+    color: rgb(240, 240, 240);
+}
